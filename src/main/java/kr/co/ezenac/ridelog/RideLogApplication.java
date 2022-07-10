@@ -22,7 +22,7 @@ public class RideLogApplication {
 		
 		
 		new SpringApplicationBuilder(RideLogApplication.class)
-			.bannerMode(Banner.Mode.OFF)
+			//.bannerMode(Banner.Mode.OFF)
 			.listeners(
 					new ApplicationPidFileWriter(),
 					new WebServerPortFileWriter())
